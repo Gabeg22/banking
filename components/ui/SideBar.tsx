@@ -14,15 +14,14 @@ const SideBar = ({user}: SiderbarProps) => {
     <section className='sidebar'>
         <nav className='flex flex-col gap-4'>
             <Link href="/" className='mb-12 cursor-pointer flex items-center gap-2'>
-                <Image src="/icons/logo.svg" 
-                    width={34}
-                    height={34}
-                    alt="Horizon Logo"
-                    className='size-[24px]
-                    max-xl:size-14'
+                <Image src="/icons/logo.png" 
+                    width={50}
+                    height={50}
+                    alt="Wallet Buddy Logo"
+                   
                 />
                 <h1 className='sidebar-logo'>
-                    Horizon
+                    Wallet Buddy
                 </h1>
             </Link>
             {sidebarLinks.map((item) =>{
